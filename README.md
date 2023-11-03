@@ -1,10 +1,13 @@
 # ContatinhosInterface
 import javax.swing.JOptionPane;
 
-public class ContatinhosInterface  {
-    public static void main(String[] args) {
-        int qtdcontatos = Integer.parseInt(JOptionPane.showInputDialog("Digite a Quantidade de Contatos:"));
+    public class ContatinhosInterface  {
+      
+       public static void main(String[] args) {
+        
 
+      int qtdcontatos = Integer.parseInt(JOptionPane.showInputDialog("Digite a Quantidade de Contatos:"));
+        
         String[] nomes = new String[qtdcontatos];
         String[] numeros = new String[qtdcontatos];
 
